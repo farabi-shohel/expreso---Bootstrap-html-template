@@ -1,0 +1,1072 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/*== Navbar start ==*/
+.header-top ul {
+	text-align: left;
+    margin: 0 0 10px;
+
+}
+.navbar-brand img{
+	width: 65%;
+}
+.c_menu ul li a {
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 10px !important;
+    line-height: 13px;
+}
+.search_ddm[data-bs-popper] {
+    top: -9px;
+    left: 40px;
+}
+.search_ddm {
+    min-width: 160px;
+    padding: 7px;
+}
+.search_input {
+    height: 28px;
+}
+.search_button {
+    height: 28px;
+}
+/*== Navbar End ==*/
+
+/*== Slider start ==*/
+.slide1, .slide2{
+	padding: 70px 0 60px;
+}
+.slider-left h1 {
+    font-size: 22px;
+}
+.slider-left h2 {
+	margin: 12px 0 18px;
+    font-size: 15px;
+}
+.btn-common {
+    font-size: 15px;
+    padding: 6px 25px;
+}
+.slider-right{
+	margin-top: 40px;
+}
+.slider-right h3 i {
+    font-size: 13px;
+    padding: 6px;
+}
+.slider-right h3{
+	font-size: 15px;
+}
+.c_indicator [data-bs-target] {
+    width: 8px;
+    height: 8px;
+}
+/*== Slider End ==*/
+
+/*== Purchase ==*/
+.purchase {
+    padding: 30px 0;
+}
+.purchase-text{
+	text-align: center;
+}
+.purchase-text h2 {
+    font-size: 22px;
+}
+.purchase-text p{
+	font-size: 13px;
+}
+.p-btn button{
+	padding: 8px 20px;
+    font-size: 14px;
+    float: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+/*== purchase ==*/
+
+/*== Service start ==*/
+.service {
+    padding: 50px 0;
+}
+.common-title h2{
+	font-size: 25px;
+}
+.common-title p{
+	font-size: 15px;
+}
+.service-single{
+	text-align: center;
+	margin-top: 50px;
+}
+.service-icon i {
+    font-size: 28px;
+    padding: 12px 10px;
+}
+.service-text h4 {
+    font-size: 17px;
+    margin-top: 13px;
+}
+.service-text p {
+    margin: 13px 0 19px;
+    font-size: 15px;
+}
+/*== service end ==*/
+
+/*== Counter Start ==*/
+.counter-main{
+	padding: 55px 0;
+}
+.c-title h2{
+	font-size: 22px;
+}
+.c-title p {
+    font-size: 14px;
+}
+.counter-single {
+    margin-top: 40px;
+}
+.c_inner ul li i {
+	margin-bottom: 0;
+    margin-right: 7px;
+    font-size: 30px;
+}
+.c_inner ul li h3 {
+	margin-bottom: 0;
+    font-size: 30px;
+}
+.c_inner p{
+	font-size: 16px;
+}
+/*== Counter end ==*/
+
+/*== Process start ==*/
+.process {
+    padding: 50px 0;
+}
+.process-bottom {
+    margin-bottom: 35px;
+}
+.p-img img{
+	padding: 0 40px;
+}
+.p-right {
+    padding-left: 5px;
+    margin-top: 30px;
+}
+.p-text h3 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.p-icon i {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    padding-top: 11px;
+    font-size: 16px;
+}
+.process-content h5 {
+    font-size: 16px;
+}
+.process-content p {
+    font-size: 14px;
+}
+/*== Process end ==*/
+
+/*== Feature Start ==*/
+.feature {
+    background: #F8F9FA;
+    padding: 50px 0;
+}
+.common-title h2{
+	font-size: 20px;
+}
+.feature-single {
+    margin-top: 35px;
+}
+.feature-icon i {
+    font-size: 17px;
+    padding: 10px 8px;
+}
+.feature-text h4 {
+    font-size: 16px;
+}
+.feature-text p{
+	font-size: 13px;
+}
+/*== Feature end ==*/
+
+/*== Get started start ==*/
+.get-started{
+	padding: 50px 0;
+}
+.gs-img img{
+	padding: 0 35px;
+}
+.gs-text{
+	margin-top: 35px;
+	text-align: center;
+}
+.gs-text h2 {
+    font-size: 15px;
+    line-height: 28px;
+}
+.gs-text p {
+    margin: 18px 0 30px;
+    font-size: 14px;
+}
+
+
+/*== Get started end ==*/
+
+/*== Skills start ==*/
+.skill {
+    padding: 40px 0;
+    background: #fffcf4;
+}
+.skill-title h2 {
+    font-size: 20px;
+}
+.progress_single label {
+    font-size: 14px;
+}
+.progress_single {
+    margin-top: 24px;
+}
+.p_left {
+    padding-left: 12px;
+}
+.testimonial_title{
+	margin-top: 50px;
+}
+.skill-title img {
+    margin: 11px 0;
+}
+.testimonial-border {
+    margin: 10px 0 18px;
+    padding: 15px 16px 7px 15px;
+}
+.q-text p{
+	font-size: 14px;
+}
+.client-info h4 {
+    font-size: 18px;
+}
+.client-info p {
+    margin: 7px 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.c_indicators {
+    bottom: 85px;
+    left: 162px;
+}
+.c_social-icon ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.c_social-icon ul li a i{
+	font-size: 16px;
+}
+/*== Skills end ==*/
+
+/*== pricing start ==*/
+.pricing {
+    padding: 50px 0;
+}
+.pricing-single {
+    margin-top: 35px;
+    padding: 20px;
+}
+.pricing-inner .pricing-top h3 {
+    margin: 28px 0 15px;
+    font-size: 25px;
+}
+.pricing-inner .pricing-top h2 {
+    font-size: 35px;
+}
+.pricing-inner .pricing-top p {
+    margin-bottom: 15px !important;
+    font-size: 15px;
+}
+.pricing-body {
+    margin: 20px 0 30px;
+}
+.pricing-body p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.pricing-btn button {
+    margin: 20px auto;
+    padding: 10px 30px;
+    font-size: 14px;
+ }
+/*== pricing end ==*/
+
+/*== Blog Start ==*/
+.blog {
+    padding: 50px 0;
+}
+.blog-single {
+    margin-top: 40px;
+}
+.blog-single h3{
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+.blog-single ul{
+	margin-bottom: 10px !important;
+}
+.blog-single ul li {
+    margin-right: 11px !important;
+    font-size: 14px;
+}
+.blog-caption p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.blog-caption h6{
+	font-size: 12px;
+}
+/*== Blog end ==*/
+
+/*== Contact Start ==*/
+.contact {
+    padding: 50px 0;
+}
+.c-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.get-in-touch ul li i {
+    margin-right: 10PX;
+}
+.get-in-touch ul li {
+	margin-bottom: 12px;
+    font-size: 15px;
+}
+.get-in-touch .social-icon h4 {
+    margin: 45px 0 15px;
+}
+.contact-form{
+	margin-top: 20px;
+}
+.map{
+	padding: 22px 0;
+}
+.map-text h4{
+	font-size: 18px;
+}
+/*== Contact end ==*/
+
+/*== Footer start ==*/
+footer {
+    padding: 50px 0px 0px;
+}
+.footer-title{
+	margin-bottom: 20px;
+}
+.footer-tag ul li a {
+    padding: 10px 10px;
+}
+.f-newsletter{
+	margin-bottom: 40px;
+}
+.f-newsletter .send-btn{
+	font-size: 14px;
+}
+.f-bootom {
+    padding: 20px 0;
+}
+/*== Footer end ==*/
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*== Navbar start ==*/
+.navbar-brand img{
+	width: 80%;
+}
+.search_ddm[data-bs-popper] {
+    top: -9px;
+    left: 56px;
+}
+.search_ddm {
+    min-width: 270px;
+}
+.search_input {
+    height: 32px;
+}
+.search_button {
+    height: 32px;
+}
+/*== Navbar End ==*/
+
+/*== Slider start ==*/
+.slide1, .slide2{
+	padding: 80px 0 60px;
+}
+.slider-left h1 {
+    font-size: 28px;
+}
+.slider-left h2 {
+	margin: 12px 0 22px;
+    font-size: 18px;
+}
+.btn-common {
+    font-size: 16px;
+    padding: 6px 27px;
+}
+.slider-right{
+	margin-top: 40px;
+}
+.slider-right h3 i {
+    font-size: 14px;
+    padding: 6px;
+}
+.slider-right h3{
+	font-size: 17px;
+}
+.c_indicator [data-bs-target] {
+    width: 9px;
+    height: 9px;
+}
+/*== Slider End ==*/
+/*== Purchase ==*/
+.purchase {
+    padding: 25px 0;
+}
+.purchase-text h2 {
+    font-size: 23px;
+}
+.purchase-text p{
+	font-size: 13px;
+}
+.p-btn button{
+	padding: 8px 20px;
+	font-size: 14px;
+}
+/*== purchase ==*/
+
+/*== Service start ==*/
+.service {
+    padding: 60px 0;
+}
+.common-title h2{
+	font-size: 25px;
+}
+.common-title p{
+	font-size: 15px;
+}
+.service-single{
+	text-align: center;
+	margin-top: 50px;
+}
+.service-icon i {
+    font-size: 28px;
+    padding: 12px 10px;
+}
+.service-text h4 {
+    font-size: 17px;
+    margin-top: 13px;
+}
+.service-text p {
+    margin: 13px 0 19px;
+    font-size: 15px;
+}
+/*== service end ==*/
+
+/*== Counter Start ==*/
+.counter-main{
+	padding: 55px 0;
+}
+.c-title h2{
+	font-size: 23px;
+}
+.c-title p {
+    font-size: 14px;
+}
+.counter-single {
+    margin-top: 43px;
+}
+.c_inner ul li i {
+	margin-bottom: 0;
+    margin-right: 10px;
+    font-size: 30px;
+}
+.c_inner ul li h3 {
+	margin-bottom: 0;
+    font-size: 30px;
+}
+.c_inner p{
+	font-size: 16px;
+}
+/*== Counter end ==*/
+
+/*== Process start ==*/
+.process {
+    padding: 50px 0;
+}
+.process-bottom {
+    margin-bottom: 45px;
+}
+.p-img img{
+	padding: 0 120px;
+}
+.p-right {
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.p-text h3 {
+    font-size: 18px;
+}
+.process-content h5 {
+    font-size: 16px;
+}
+.process-content p {
+    font-size: 14px;
+}
+/*== Process end ==*/
+
+/*== Feature Start ==*/
+.feature {
+    background: #F8F9FA;
+    padding: 50px 0;
+}
+.common-title h2{
+	font-size: 20px;
+}
+.feature-single {
+    margin-top: 35px;
+}
+.feature-icon i {
+    font-size: 17px;
+    padding: 10px 8px;
+}
+.feature-text h4 {
+    font-size: 16px;
+}
+.feature-text p{
+	font-size: 13px;
+}
+/*== Feature end ==*/
+
+/*== Get started start ==*/
+.get-started{
+	padding: 50px 0;
+}
+.gs-img img{
+	padding: 0 110px;
+}
+.gs-text{
+	margin-top: 35px;
+	text-align: center;
+}
+.gs-text h2{
+	font-size: 17px;
+}
+.gs-text p {
+    margin: 18px 0 30px;
+}
+.gets-btn button {
+    padding: 7px 30px;
+}
+/*== Get started end ==*/
+
+/*== Skills start ==*/
+.skill {
+    padding: 45px 0;
+    background: #fffcf4;
+}
+.skill-title h2 {
+    font-size: 26px;
+}
+.progress_single label {
+    font-size: 14px;
+}
+.progress_single {
+    margin-top: 24px;
+}
+.p_left {
+    padding-left: 12px;
+}
+.testimonial_title{
+	margin-top: 50px;
+}
+.skill-title img {
+    margin: 11px 0;
+}
+.testimonial-border {
+    margin: 10px 0;
+    padding: 25px 25px 20px 25px;
+}
+.client-info h4 {
+    font-size: 18px;
+}
+.client-info p {
+    margin: 7px 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.c_indicators {
+    bottom: 80px;
+    left: 300px;
+}
+.c_social-icon ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.c_social-icon ul li a i{
+	font-size: 16px;
+}
+/*== Skills end ==*/
+
+/*== pricing start ==*/
+.pricing {
+    padding: 50px 0;
+}
+.pricing-single {
+    margin-top: 35px;
+    padding: 20px;
+}
+.pricing-inner .pricing-top h3 {
+    margin: 28px 0 15px;
+    font-size: 25px;
+}
+.pricing-inner .pricing-top h2 {
+    font-size: 35px;
+}
+.pricing-inner .pricing-top p {
+    margin-bottom: 15px !important;
+    font-size: 15px;
+}
+.pricing-body {
+    margin: 20px 0 30px;
+}
+.pricing-body p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.pricing-btn button {
+    margin: 20px auto;
+    padding: 10px 30px;
+    font-size: 14px;
+ }
+/*== pricing end ==*/
+
+/*== Blog Start ==*/
+.blog {
+    padding: 50px 0;
+}
+.blog-single {
+    margin-top: 40px;
+}
+.blog-single h3{
+	font-size: 20px;
+}
+.blog-single ul li {
+    margin-right: 18px !important;
+    font-size: 15px;
+}
+.blog-caption p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.blog-caption h6{
+	font-size: 12px;
+}
+/*== Blog end ==*/
+
+/*== Contact Start ==*/
+.contact {
+    padding: 50px 0;
+}
+.c-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.get-in-touch ul li i {
+    margin-right: 10PX;
+}
+.get-in-touch ul li {
+	margin-bottom: 12px;
+    font-size: 15px;
+}
+.get-in-touch .social-icon h4 {
+    margin: 45px 0 15px;
+}
+.contact-form{
+	margin-top: 20px;
+}
+/*== Contact end ==*/
+
+/*== Footer start ==*/
+footer {
+    padding: 50px 0px 0px;
+}
+.footer-title{
+	margin-bottom: 20px;
+}
+.f-newsletter{
+	margin-bottom: 40px;
+}
+.f-newsletter .send-btn{
+	font-size: 14px;
+}
+.f-bootom {
+    padding: 20px 0;
+}
+/*== Footer end ==*/
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*== Navbar start ==*/
+.navbar-brand img{
+	width: 90%;
+}
+.search_ddm[data-bs-popper] {
+    top: -9px;
+    left: 56px;
+}
+.search_ddm {
+    min-width: 270px;
+}
+.search_input {
+    height: 32px;
+}
+.search_button {
+    height: 32px;
+}
+/*== Navbar End ==*/
+
+/*== Slider start ==*/
+.slide1, .slide2{
+	padding: 110px 0;
+}
+.slider-left h1 {
+    font-size: 30px;
+}
+.slider-left h2 {
+    font-size: 22px;
+}
+.btn-common {
+    font-size: 16px;
+    padding: 6px 27px;
+}
+.slider-right h3 i {
+    font-size: 14px;
+    padding: 6px;
+}
+.slider-right h3{
+	font-size: 17px;
+}
+.c_indicator [data-bs-target] {
+    width: 9px;
+    height: 9px;
+}
+/*== Slider End ==*/
+
+/*== Purchase ==*/
+.purchase {
+    padding: 25px 0;
+}
+/*== purchase ==*/
+
+/*== Service start ==*/
+.service {
+    padding: 65px 0;
+}
+.common-title p{
+	font-size: 15px;
+}
+.service-single {
+    margin-top: 55px;
+    text-align: center;
+}
+.service-icon i {
+    font-size: 28px;
+    padding: 12px 10px;
+}
+.service-text h4 {
+	margin-top: 15px;
+    font-size: 18px;
+}
+.service-text p {
+    margin: 13px 0 19px;
+    font-size: 16px;
+}
+/*== service end ==*/
+
+/*== Counter Start ==*/
+.counter-main{
+	padding: 70px 0;
+}
+.c_inner ul li i {
+	margin-bottom: 0;
+    margin-right: 10px;
+    font-size: 35px;
+}
+.c_inner ul li h3 {
+	margin-bottom: 0;
+    font-size: 35px;
+}
+.c_inner p{
+	font-size: 18px;
+}
+/*== Counter end ==*/
+
+/*== Process start ==*/
+.process {
+    padding: 60px 0;
+}
+.process-bottom {
+    margin-bottom: 45px;
+}
+.p-img img{
+	padding: 0 150px;
+}
+.p-right {
+    padding-left: 60px;
+    margin-top: 30px;
+}
+/*== Process end ==*/
+
+/*== Feature Start ==*/
+.feature {
+    background: #F8F9FA;
+    padding: 60px 0;
+}
+.common-title h2{
+	font-size: 25px;
+}
+.feature-single {
+    margin-top: 45px;
+}
+/*== Feature end ==*/
+
+/*== Get started start ==*/
+.gs-img img{
+	padding: 0 160px;
+}
+.gs-text{
+	margin-top: 35px;
+	text-align: center;
+}
+.gs-text p {
+    margin: 18px 0 30px;
+}
+/*== Get started end ==*/
+
+/*== Skills start ==*/
+.skill-title h2 {
+    font-size: 26px;
+}
+.progress_single label {
+    font-size: 14px;
+}
+.p_left {
+    padding-left: 30px;
+}
+.testimonial-border {
+    margin: 30px 0;
+    padding: 25px 25px 20px 25px;
+}
+.client-info h4 {
+    font-size: 18px;
+}
+.client-info p {
+    margin: 7px 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.c_indicators {
+    bottom: 97px;
+    left: 225px;
+}
+.c_social-icon ul li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.c_social-icon ul li a i{
+	font-size: 16px;
+}
+/*== Skills end ==*/
+
+/*== Pricing start ==*/
+.pricing {
+    padding: 55px 0;
+}
+.pricing-single {
+    margin-top: 50px;
+    padding: 12px;
+}
+.pricing-inner .pricing-top h3 {
+    margin: 28px 0 15px;
+    font-size: 25px;
+}
+.pricing-inner .pricing-top h2 {
+    font-size: 35px;
+}
+.pricing-inner .pricing-top p {
+    margin-bottom: 15px !important;
+    font-size: 15px;
+}
+.pricing-body {
+    margin: 20px 0 30px;
+}
+.pricing-body p {
+    margin-top: 18px;
+    font-size: 14px;
+}
+.pricing-btn button {
+    margin: 20px auto;
+    padding: 8px 30px;
+    font-size: 14px;
+ }
+/*== Pricing end ==*/
+
+/*== Blog Start ==*/
+.blog {
+    padding: 60px 0;
+}
+.blog-single {
+    margin-top: 48px;
+}
+.blog-single h3{
+	font-size: 20px;
+}
+.blog-single ul li {
+    margin-right: 18px !important;
+    font-size: 15px;
+}
+.blog-caption p {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.blog-caption h6{
+	font-size: 12px;
+}
+/*== Blog end ==*/
+
+/*== Contact Start ==*/
+.contact {
+    padding: 60px 0;
+}
+.c-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.get-in-touch ul li i {
+    margin-right: 10PX;
+}
+.get-in-touch ul li {
+    font-size: 15px;
+}
+.map{
+	padding: 25px 0;
+}
+.map-text h4{
+	font-size: 20px;
+}
+/*== Contact end ==*/
+
+/*== Footer start ==*/
+footer {
+    padding: 60px 0px 0px;
+}
+.footer-title{
+	margin-bottom: 20px;
+}
+.f-newsletter{
+	margin-bottom: 40px;
+}
+/*== Footer end ==*/
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*== Navbar start ==*/
+.c_menu ul li a{
+	padding-right: 16px !important;
+}
+/*== Navbar End ==*/
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*== Banner start ==*/
+.slider-left h1 {
+    font-size: 45px;
+}
+.slider-left h2 {
+    font-size: 32px;
+}
+.slider-right h3 {
+	margin-bottom: 21px;
+    font-size: 22px;
+}
+.slider-right h3 i{
+	font-size: 18px;
+}
+/*== Banner end ==*/
+}
+
+/* Extra Extra large devices (Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+/*== Navbar start ==*/
+.c_menu ul li a{
+	padding-right: 30px !important;
+	font-size: 16px;
+}
+/*== Navbar End ==*/
+/*== Banner start ==*/
+.slider-left h1 {
+    font-size: 48px;
+}
+.slider-left h2 {
+    font-size: 32px;
+}
+.slider-right h3 {
+	margin-bottom: 26px;
+    font-size: 22px;
+}
+.slider-right h3 i{
+	font-size: 20px;
+}
+/*== Banner end ==*/
+
+/*== Process start ==*/
+.p-right {
+    padding-left: 50px;
+}
+.p-text h3 {
+    font-size: 26px;
+}
+.p-text p {
+    font-size: 17px;
+}
+.process-content h5 {
+    font-size: 20px;
+}
+.process-content p {
+    font-size: 18px;
+}
+/*== Process end ==*/
+/*== client start ==*/
+.c_indicators {
+    bottom: 113px;
+    left: 370px;
+}
+/*== client end ==*/
+}

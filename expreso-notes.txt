@@ -1,0 +1,50 @@
+Expreso Notes===
+
+fonts====
+Raleway : body, heading  
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+
+Colors====
+	Black #000000;
+	orange #cc9966;
+paragarph #666666;
+button
+
+
+box-shaddow===
+  box-shadow: 0px 4px 8px 0px #959595;
+
+
+
+
+
+
+
+
+
+
+
+
+<!--====== CLIENT START HERE ====-->
+    <section class="client">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="slider-img responsive">
+              <img src="images/1.png" alt="expreso" class="img-fluid ">
+              <img src="images/2.png" alt="expreso" class="img-fluid ">
+              <img src="images/3.png" alt="expreso" class="img-fluid ">
+              <img src="images/4.png" alt="expreso" class="img-fluid ">
+              <img src="images/5.png" alt="expreso" class="img-fluid ">
+              <img src="images/6.png" alt="expreso" class="img-fluid ">
+              <img src="images/7.png" alt="expreso" class="img-fluid ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--====== CLIENT END HERE ====-->
+
+
+

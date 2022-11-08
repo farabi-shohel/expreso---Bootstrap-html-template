@@ -1,0 +1,853 @@
+
+/*==== Common css style Start=====*/
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	color: #333333;
+}
+/*==== Common css style End =====*/
+
+
+/*==== Navbar CSS Start =====*/
+header{
+	background: #e1e1e1;
+}
+.header-top{
+	padding-top: 10px;
+	margin-bottom: -10px;
+}
+.header-top ul{
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+.header-top ul li{
+	margin-right: 15px;
+	font-family: 'Open Sans', sans-serif;
+	color: #666666;
+	font-size: 14px;
+}
+.header-top ul li i{
+	color: #cc9966;
+}
+.c_menu ul li a{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000000 !important;
+	padding-right: 20px !important;
+	text-transform: uppercase;
+	transition: 0.6s ease all;
+	display: inline-block;
+}
+.c_menu ul li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #cc9966;
+    transition: width .6s;
+    
+}
+.c_menu ul li a:hover::after{
+    width: 100%;
+}
+.search_icon{
+	color: #000000;
+}
+.search_dd::after {
+    display: none;
+}
+.search_dd:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.search_ddm {   
+    min-width: 330px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    color: #212529;
+    border-radius: 0;
+}
+.search_ddm[data-bs-popper] {
+    top: 66px;
+    left: -300px;
+    margin-top: 0;
+}
+.search_input{
+	width: 100%;
+    height: 42px;
+    border: 1px solid #8e8e8e;
+    border-radius: 0;
+}
+.search_input:focus{
+	box-shadow: none;
+}
+.search_button{
+	width: 100%;
+    height: 42px;
+    background: transparent;
+    border: 1px solid #8e8e8e;
+    border-radius: 0;
+}
+/*==== Navbar CSS End ====*/
+
+/*==== Slider css start ====*/
+.slide1, .slide2 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/slider-1.jpg);
+  padding: 160px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slide2{
+	background: url(../images/slider-2.jpg);
+}
+.slide1::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.slide2::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.c_indicator [data-bs-target] {
+    width: 12px;
+    height: 12px;
+}
+
+.slider-left, .slider-right{
+	position: relative;
+}
+.slider-left h1{
+	margin: 0;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.slider-left h2{
+	margin: 15px 0 30px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+.btn-common{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	border: 1px solid #fff;
+	padding: 9px 35px;
+	border-radius: 0;
+	transition: 0.3s ease all;
+}
+.btn-common:hover{
+	color: #000000;
+	background: #fff;
+}
+.slider-right{
+	color: #fff;
+}
+.slider-right h3{
+	margin-bottom: 18px;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.slider-right h3 i{
+	font-size: 16px;
+	margin-right: 10px;
+	border: 1px solid #fff;
+	padding: 8px;
+}
+/*==== Slider CSS End ====*/
+
+/*==== PURCHASE CSS START====*/
+.purchase{
+	background: #121212;
+	padding: 30px 0;
+}
+.purchase-text h2{
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #cc9966;
+}
+.purchase-text p{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 16px;
+}
+.p-btn button{
+	float: right;
+}
+/*==== PURCHASE CSS End ====*/
+
+/*==== SERVICE CSS START ====*/
+.service{
+	padding: 80px 0;
+}
+.common-title h2{
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 700;
+	color: #000000;
+}
+.common-title .shape-img img{
+	margin: 15px 0 20px;
+}
+.common-title p{
+	margin: 0;
+	color: #444444;
+	font-size: 17px;
+}
+.service-single{
+	margin-top: 70px;
+	/*box-shadow: rgb(0 0 0 / 4%) 0px 10px 50px;*/
+	/*padding: 30px 20px;*/
+}
+.service-icon i{
+	font-size: 35px;
+    border: 1px solid #cc9966;
+    color: #cc9966;
+    padding: 19px 14px;
+    transition: 0.3s ease all;
+}
+.service-icon i:hover{
+	background: #cc9966;
+	color: #fff;
+	border: 1px solid #cc9966;
+}
+.service-text h4{
+	margin: 0;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.service-text p{
+	margin: 18px 0 23px;
+	color: #545353;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+}
+.service-text a{
+	text-decoration: none;
+	padding: 7px 11px;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	background: #b7b7b7;
+	transition: 0.3s ease all;
+}
+.service-text a:hover{
+	background: #000000;
+
+}
+/*==== SERVICE CSS END ====*/
+
+/*==== COUNTER CSS START ====*/
+.counter-main{
+	background: url(../images/c-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 80px 0;
+}
+.c-title h2{
+	color: #fff;
+}
+.c-title p{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: lowercase;
+	color: #fff;
+	font-size: 16px;
+}
+.counter-single{
+	margin-top: 50px;
+	color: #fff;
+}
+.c_inner ul li i{
+	margin-right: 17px;
+	font-size: 40px;
+}
+.c_inner ul li h3{
+	font-size: 40px;
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+}
+.c_inner p{
+	margin: 0;
+	font-size: 20px;
+	font-weight: 500;
+}
+/*==== COUNTER CSS END ====*/
+
+/*==== PROCESS START HERE ====*/
+.process{
+	padding: 80px 0;
+}
+.process-bottom{
+	margin-bottom: 60px;
+}
+.p-right{
+	padding-left: 25px;
+}
+.p-text h3{
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+}
+.p-text p{
+	font-size: 15px;
+}
+.p_top-margin{
+	margin-top: 30px;
+}
+.p-icon i{
+	height: 60px;
+    width: 60px;
+    background: #cc9966;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 18px;
+    color: #fff;
+    font-size: 24px;
+
+}
+.process-content h5{
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.process-content p{
+	font-size: 15px;
+	margin: 0;
+}
+/*==== PROCESS CSS END ====*/
+
+/*==== GALLERY CSS START ====*/
+.gallery{
+	background: #242424;
+	padding-top: 50px;
+}
+.gallery-title h2{
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+.v-line{
+	width: 50px;
+	height: 2px;
+	display: block;
+	margin: 15px auto;
+	background: #fff;
+}
+.filter-btn{
+	margin: 30px 0;
+}
+.filter-btn button{
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 0;
+	color: #fff;
+	text-transform: uppercase;
+	transition: 0.3s ease;
+}
+.filter-btn button:hover{
+	background: #fff;
+	border: 1px solid #fff;
+	color: #cc9966;
+}
+.filter-btn button:focus{
+	box-shadow: none;
+}
+/*==== GALLERY CSS END ====*/
+
+
+
+/*==== FEATURE CSS START ====*/
+.feature{
+	background: #F8F9FA;
+	padding: 70px 0;
+}
+.feature-single{
+	margin-top: 60px;
+}
+.feature-icon i{
+	font-size: 18px;
+    color: #cc9966;
+    border: 1px solid #cc9966;
+    padding: 13px 10px;
+    transition: 0.3s ease all;
+}
+.feature-icon i:hover{
+	background: #000000;
+	border: 1px solid #000000;
+}
+.feature-text h4{
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.feature-text p{
+	margin: 0;
+	padding-right: 15px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #47484a;
+}
+/*==== FEATURE CSS END ====*/
+
+/*==== GET STARTED CSS START ====*/
+.get-started{
+	background: url(../images/b-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0 70px;
+}
+
+.gs-text h2{
+	margin: 0;
+	font-size: 19px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+}
+.gs-text p{
+	margin: 25px 0 40px;
+	font-family: 'Open Sans', sans-serif;
+	color: #cececf;
+}
+.gets-form input{
+	border-radius: 0;
+	padding: 8px 25px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.gets-btn button{
+	background: #c69c6d;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border-radius: 0;
+	padding: 7px 35px;
+}
+/*==== GET STARTED CSS END ====*/
+
+/*==== SKILLS & PROGRESS CSS START ====*/
+.skill{
+	padding: 60px 0;
+	background: #fffcf4;
+}
+.skill-title h2{
+	margin: 0;
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.skill-title img{
+	margin: 15px 0;
+}
+.progress_single{
+	margin-top: 30px;
+}
+.progress_single label{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.p_left{
+	padding-left: 50px;
+}
+.testimonial-border{
+	margin: 30px 0;
+	border: 1px solid #000000;
+	padding: 30px 40px 30px 25px;
+	background: #fff;
+}
+.client-info h4{
+	margin: 0;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.client-info p{
+	margin: 13px 0;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.c_social-icon ul li{
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #000000;
+	text-align: center;
+	transition: 0.3s ease;
+}
+.c_social-icon ul li:hover{
+	background: #CC9966;
+	border: 1px solid #CC9966;
+	color: #fff;
+}
+.c_social-icon ul li a i{
+	font-size: 20px;
+	color: #000000;
+}
+/*Indicator*/
+.c_indicators {
+    bottom: 113px;
+    left: 225px;
+}
+.c_indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    margin-left: 3px;
+    background-color: #000000;
+
+}
+/*==== SKILLS & PROGRESS CSS END ====*/
+
+
+/*==== PRICING CSS START ====*/
+.pricing{
+	padding: 80px 0;
+}
+.pricing-single{
+	margin-top: 50px;
+	background: #111111;
+	color: #fff;
+	padding: 20px;
+}
+.pricing-inner{
+	border: 1px solid #cc9966;
+	text-align: center;
+}
+.pricing-inner .pricing-top h3{
+	margin: 40px 0 20px;
+	font-size: 30px;
+}
+.pricing-inner .pricing-top h2{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+}
+.pricing-inner .pricing-top p{
+	margin-bottom: 20px !important;
+	font-size: 18px;
+	color: #cc9966;
+	text-transform: uppercase;
+}
+.pricing-body{
+	border-top: 1px solid #937859;
+	margin: 20px 0 40px;
+}
+.pricing-body p{
+	margin-top: 24px;
+	margin-bottom: 0;
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+.pricing-btn button{
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 0;
+	text-align: center;
+	/*display: block;*/
+	width: 100%;
+	margin: 30px auto;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background: #fff;
+    color: #000000;
+    font-weight: 600;
+    transition: 0.3s ease all;
+}
+.pricing-btn button:hover{
+	background: transparent;
+	color: #fff;
+}
+/*==== PRICING CSS END ====*/
+
+/*==== BLOG CSS START ====*/
+.blog{
+	padding: 80px 0;
+}
+.blog-single{
+	margin-top: 60px;
+	position: relative;
+}
+.blog-single h3{
+	color: #000000;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.blog-single ul li{
+	margin: 5px 0;
+	margin-right: 30px !important;
+	color: #666666;
+	transition: 0.3s ease all;
+	cursor: pointer;
+}
+.blog-single ul li:hover{
+	color: #cc9966;
+}
+.blog-img img{
+	width: 100%;
+}
+.blog-caption{
+	width:100%;
+	padding:10px 10px;
+	background: rgba(0,0,0,.5);
+	/*content-visibility: visible;*/
+	position: absolute;
+    bottom: 0;
+	left:0;
+	z-index:1;
+}
+.blog-caption p{
+	margin-bottom: 10px;
+	color: #fff;
+}
+.blog-caption h6{
+	font-style: italic;
+	font-size: 13px;
+	color: #fff;
+}
+#blog-carousel .carousel-control-prev{
+  /*border-radius: 50%;*/
+  background: #000000;
+  	border: 1px solid #000000;
+  width: 35px;
+  height: 35px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+  opacity: 1;
+  top: 50%;
+  transform: translate(-15%,-60%);
+}
+ #blog-carousel .carousel-control-next{
+ 	background: #000000;
+  	border: 1px solid #000000;
+  	width: 35px;
+  	height: 35px;
+  	font-size: 24px;
+  	text-align: center;
+  	line-height: 30px;
+  	opacity: 1;
+  	top: 50%;
+  	transform: translate( 15%,-60%);
+ }
+/*==== BLOG CSS END ====*/
+
+/*==== CLIENT CSS START ====*/
+.client{
+	background: #FFFCF4;
+	padding: 40px 0;
+}
+.slider-img img{
+	margin: 0px 10px;
+}
+
+/*==== CLIENT CSS END ====*/
+
+/*==== CONTACT CSS START ====*/
+.contact{
+	padding: 80px 0;
+	background: #FFFCF4;
+}
+.c-title{
+	margin-bottom: 30px;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.get-in-touch ul li{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	margin-bottom: 15px;
+}
+.get-in-touch ul li i{
+	margin-right: 15PX;
+	color: #000000;
+}
+.get-in-touch .social-icon h4{
+	margin: 100px 0 20px;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000000;
+}
+.get-in-touch .social-icon ul li{
+	margin-right: 0px !important;
+}
+.get-in-touch .social-icon ul li i{
+	border: 1px solid #000000;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #000000;
+	color: #fff;
+	cursor: pointer;
+	transition: 0.4s ease all;
+
+}
+.get-in-touch .social-icon ul li i:hover{
+	background: transparent;
+	color: #000000;
+
+}
+.contact-form .b-none{
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	padding: 10px;
+}
+.btn-submit{
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 0;
+	text-align: center;
+	/*display: block;*/
+	width: 100%;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background: #000000;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease all;
+}
+.btn-submit:hover{
+	background: transparent;
+	border: 1px solid #000000;
+	color: #000000;
+}
+/*==== CONTACT CSS END ====*/
+
+/*==== MAP CSS START ====*/
+.map{
+	background: #cc9966;
+	padding: 30px 0;
+}
+.map-text h4{
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 600;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+}
+.map-text h4 i{
+	margin-left: 10px;
+	cursor: pointer;
+}
+/*==== MAP CSS END ====*/
+
+/*==== FOOTER CSS START ====*/
+footer{
+	padding: 80px 0px 0px;
+	background: #373737;
+	color: #bcb8b8;
+}
+.footer-title{
+	margin-bottom: 40px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #bcb8b8;
+	text-transform: uppercase;
+}
+.footer-post{
+	margin-bottom: 30px;
+}
+.post-text h5{
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.post-text h6{
+	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.post-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+
+}
+.footer-tag ul li {
+	margin-bottom: 30px;
+}
+.footer-tag ul li a{
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #bdb9b9;
+	background: #2B2B2B;
+	padding: 10px 15px;
+}
+.f-newsletter input{
+	background: #2B2B2B;
+	border: 1px solid #171717;
+	border-radius: 0;
+	padding: 8px 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.f-newsletter .send-btn{
+	width: 100%;
+	border: 1px solid #fff;
+	border-radius: 0;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 8px 0;
+	background: transparent;
+	transition: 0.3s ease all;
+}
+.f-newsletter .send-btn i{
+	margin-left: 10px;
+}
+.f-newsletter .send-btn:hover{
+	background: #000000;
+	border: 1px solid #000000;
+}
+
+.f-bootom{
+	border-top: 1px solid #636363;
+	background: #303030;
+	padding: 30px 0;
+}
+.f-bootom p{
+	margin: 0;
+}
+/*==== FOOTER CSS END ====*/
